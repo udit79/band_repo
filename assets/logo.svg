@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="136" y1="120" x2="360" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="0.4" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 180) rotate(90) scale(210 210)">
+      <stop stop-color="#FBBF24" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#FBBF24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="32" y="32" width="448" height="448" rx="120" fill="url(#bg)"/>
+  <circle cx="256" cy="236" r="170" fill="url(#glow)"/>
+
+  <path d="M215 120C215 105.64 226.64 94 241 94H287C301.36 94 313 105.64 313 120V242.532C322.323 235.147 334.946 231 349 231C382.137 231 409 257.863 409 291C409 324.137 382.137 351 349 351C315.863 351 289 324.137 289 291V176H241V286.865C250.323 279.48 262.946 275.333 277 275.333C310.137 275.333 337 302.196 337 335.333C337 368.47 310.137 395.333 277 395.333C243.863 395.333 217 368.47 217 335.333V120H215Z" fill="url(#gold)"/>
+
+  <path d="M196 150C196 101.324 234.324 63 283 63H307C323.569 63 337 76.4315 337 93V170L260 186V145C260 129.536 272.536 117 288 117H305V92H283C250.967 92 225 117.967 225 150V310C225 332.091 207.091 350 185 350H158C134.804 350 116 331.196 116 308C116 284.804 134.804 266 158 266H185V150H196Z" fill="#F8FAFC" fill-opacity="0.9"/>
+
+  <path d="M318 170L376 150V322C376 345.196 357.196 364 334 364C310.804 364 292 345.196 292 322C292 298.804 310.804 280 334 280C345.493 280 356.078 284.145 363.873 291.253V204.544L318 213.175V170Z" fill="#F8FAFC" fill-opacity="0.85"/>
+</svg>
